@@ -1,0 +1,74 @@
+
+body {
+	font-family: "Museo Sans Cyrl",sans-serif;
+	background-color: rgb(249,249,249)	
+}
+
+header {
+	margin: 30px 100px;
+	font-size: 10px;
+	color: #52545e;
+	text-transform: uppercase;
+}
+.container {
+	max-width: 1240px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	overflow: hidden;
+	
+}
+
+.block {
+	width: 350px;
+	height: 200px;
+	margin: 15px 15px  ;
+	padding: 0px;
+	background-color: white;
+	box-shadow: 0 5px 30px 0 rgba(1,0,0,.09);
+	border-radius: 6px;
+	cursor: pointer;
+	transition: all .2s ease;
+	
+}
+
+.block:hover {
+	transform: translateY(-8px);
+	-webkit-transform: translateY(-8px);
+	
+	
+}
+
+.sitehere {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+}
+
+.block span {
+	display: flex;
+	justify-content: flex-end;
+	margin: 13px;
+	font-family: "Museo Sans Cyrl",sans-serif;
+	color: #ca5c24;
+}
+
+.block h2 {
+	display: flex;
+	justify-content: center;
+	color: #ca5c24;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.block p {
+	text-align: center;
+	font-size: 17px;
+	font-weight: 300;
+	line-height: 27.2px;
+	color: rgb (81, 78, 78);
+	text-rendering: optimizeLegibility;
+	
+}

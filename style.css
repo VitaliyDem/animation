@@ -1,7 +1,11 @@
 
 body {
+	position: relative;
+	left: 92px;
+	top: 41px;
 	font-family: "Museo Sans Cyrl",sans-serif;
 	background-color: rgb(249,249,249)	
+	
 }
 
 header {
